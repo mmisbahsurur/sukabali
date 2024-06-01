@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Montserrat-VariableFont_wght.ttf');
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.navbar-green {
+  background-color: #2C3221;
+}
+
+.nav-link {
+  color: #F5EBD7;
+}
+
+.nav-link:hover, .nav-link.active, .nav-link:focus, .nav-link.show {
+  color: #606354;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #F5EBD7;
+}
+
+.btn-white {
+  color: #2C3221;
+  background-color: #F5EBD7;
+}
+
+.btn-white:focus, .btn-white:active, .btn-white:hover {
+  border: 1px solid #F5EBD7;
+  background-color: transparent;
+  color: #F5EBD7;
+}
+
+.btn-green {
+  color: #F8F1E3;
+  background-color: #606354;
+}
+
+.btn-green:focus, .btn-green:active, .btn-green:hover {
+  border: 1px solid #606354;
+  background-color: transparent;
+  color: #606354;
+}
+
+.dropdown-menu {
+  background-color: #2C3221;
+}
+
+.dropdown-item {
+  color: #F5EBD7;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #F5EBD7;
+}
+
+#hero img, #footer img {
+  padding: 0;
+  width: 100% !important;
+}
+
+#hero .position-absolute {
+  padding-left: inherit;
+  padding-right: inherit;
+}
+
+.hero-title {
+  color: #F8F1E3;
+  font-size: 45px;
+}
+
+.hero-subtitle {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+#about, #product, #location {
+  padding: 100px 0;
+  color: #2C3221 !important;
+}
+
+#about h2, #about p, #activity h3, #product h2, #product p, #video h2, #location h2{
+  opacity: 0.75;
+}
+
+#activity {
+  background-color: #F5EBD7;
+  padding: 100px 0;
+  color: #2C3221 !important;
+}
+
+.img-activity {
+  width: 300px;
+  height: auto;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+
+.overlay {
+  color: #FFFFFF;
+  transition: .5s ease;
+  opacity:0;
+  padding: 15px;
+  background-image: linear-gradient(transparent, #2C3221 90%);
+}
+
+.img-overlay:hover .overlay {
+  opacity: 1;
+}
+
+.text-overlay {
+  padding: inherit;
+}
+
+#video {
+  background-color: rgba(245, 235, 215, 0.5);
+  padding: 100px 0;
+  color: #2C3221 !important;
+}
+
+#video iframe, #location iframe {
+  aspect-ratio: 16/9;
+}
+
+.mapouter {
+  position:relative;
+  text-align:right;
+  width:100%;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  width:100%;
+}
+
+.footer-title {
+  color: #F8F1E3;
+}
+
+footer {
+  padding: 100px 0 25px 0;
+  background-color: #2C3221;
+  color: #F5EBD7;
+}
