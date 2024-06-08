@@ -63,8 +63,7 @@ body {
 }
 
 #hero .position-absolute {
-  padding-left: inherit;
-  padding-right: inherit;
+  padding-right: calc(0.1 * 100vw);
 }
 
 .hero-title {
@@ -169,7 +168,7 @@ footer {
 }
 
 #caption {
-  padding: 100px;
+  padding: 100px 0;
   background-color: #7A3715;
   color: #F5EBD7;
 }
