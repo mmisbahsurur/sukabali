@@ -10,7 +10,25 @@
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+  #about, #product, #location, #activity, #video, #caption {
+    padding: 50px 0;
+  }
 
+  footer {
+    padding: 50px 0 25px 0;
+  }
+
+  .hero-title {
+    font-size: 40px;
+  }
+
+  .hero-subtitle {
+    font-size: 20px;
+  }
+
+  .img-activity {
+    width: 225px;
+  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
