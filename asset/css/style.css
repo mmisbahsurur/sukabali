@@ -23,6 +23,11 @@ body {
   color: #F5EBD7;
 }
 
+.navbar-toggler {
+  border: 1px solid #F5EBD7;
+  color: #F5EBD7;
+}
+
 .btn-white {
   color: #2C3221;
   background-color: #F5EBD7;
