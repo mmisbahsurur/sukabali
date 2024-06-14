@@ -32,9 +32,46 @@
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
+  #about, #product, #location, #activity, #video, #caption {
+    padding: 35px 0;
+  }
 
+  footer {
+    padding: 35px 0 20px 0;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .img-activity {
+    width: 160px;
+  }
 }
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
-  
+  #about, #product, #location, #activity, #video, #caption {
+    padding: 25px 0;
+  }
+
+  footer {
+    padding: 25px 0 15px 0;
+  }
+
+  .hero-title {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .img-activity {
+    max-width: 100%;
+    height: auto;
+  }
 }
