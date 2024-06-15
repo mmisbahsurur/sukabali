@@ -117,6 +117,7 @@ body {
 
 .text-overlay {
   padding: inherit;
+  text-align: start;
 }
 
 #video {
