@@ -17,10 +17,18 @@ body {
 
 .nav-link:hover, .nav-link.active, .nav-link:focus, .nav-link.show {
   color: #606354;
+  text-decoration: underline;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-  color: #F5EBD7;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #FFFFFF;
+  text-decoration: underline;
+  background-color: transparent;
 }
 
 .navbar-toggler {
@@ -81,16 +89,16 @@ body {
   font-size: 25px;
 }
 
-#about, #product, #location {
+#about, #product{
   padding: 100px 0;
   color: #2C3221 !important;
 }
 
-#about h2, #about h3, #about h5, #about ul, #about p, #activity h3, #activity p, #product h2, #product p, #video h2, #video h3, #video h5, #video ul, #video p, #location h2, #location p{
+#about h2, #about h3, #about h5, #about h6, #about ul, #about p, #activity h3, #activity p, #product h2, #product p, #video h2, #video h3, #video h5, #video h6, #video ul, #video p, #location h2, #location p{
   opacity: 0.75;
 }
 
-#activity {
+#activity, #location {
   background-color: #F5EBD7;
   padding: 100px 0;
   color: #2C3221 !important;
@@ -126,12 +134,8 @@ body {
   color: #2C3221 !important;
 }
 
-#video iframe, #location iframe {
+#video iframe, #location iframe, .video-yt {
   aspect-ratio: 16/9;
-}
-
-#about iframe {
-  aspect-ratio: 1/1;
 }
 
 .mapouter {
@@ -140,13 +144,19 @@ body {
   width:100%;
 }
 
+.mapouter iframe {
+  aspect-ratio: 1/1;
+}
+
 .gmap_canvas {
   overflow:hidden;
   background:none!important;
   width:100%;
+
 }
 
 .footer-title {
+
   color: #F8F1E3;
 }
 
