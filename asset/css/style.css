@@ -18,15 +18,17 @@ body {
 .nav-link:hover, .nav-link.active, .nav-link:focus, .nav-link.show {
   color: #606354;
   text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-  color: #FFFFFF;
+  color: #F5EBD7;
   text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
 .dropdown-item.active, .dropdown-item:active {
-  color: #FFFFFF;
+  color: #F5EBD7;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -94,7 +96,7 @@ body {
   color: #2C3221 !important;
 }
 
-#about h2, #about h3, #about h5, #about h6, #about ul, #about p, #activity h3, #activity p, #product h2, #product p, #video h2, #video h3, #video h5, #video h6, #video ul, #video p, #location h2, #location p{
+#about h2, #activity h5, #about h3, #about h5, #about h6, #about ul, #about p, #activity h3, #activity p, #product h2, #product p, #video h2, #video h3, #video h5, #video h6, #video ul, #video p, #location h2, #location p{
   opacity: 0.75;
 }
 
